@@ -134,6 +134,6 @@ img {
     padding: 50px 10px;
   }  
    .project__items {
-    grid-template-columns: repeat(auto-fit, minmax(320pxpx, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   }
 }
