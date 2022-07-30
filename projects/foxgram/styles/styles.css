@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+.header {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+    background-color: #ffffff;
+    height: 100px;
+}
+.container {
+    width: 640px;
+    margin: 0 auto;
+}
+.flex_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons{
+    margin: 0 -15px;
+}
+
+.icon{
+    margin: 0 15px;
+}
+
+.stories{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #c4c4c4;
+    background-color: #ffffff;
+}
+
+.story{
+    margin: 30px 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.story_gr{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, #EBAF4D, #D60A66);
+    border-radius: 100%;
+    margin-bottom: 8px;
+    position: relative;
+}
+.story_gr_img{
+    border-radius: 100%;
+    margin: 2px;
+    border: 2px solid #ffffff;
+    width: 76px;
+    height: 76px;
+}
+.post{
+    margin-bottom: 30px;
+    border: 1px solid #c4c4c4;
+    background-color: #ffffff;
+}
+.post_header{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #c4c4c4;
+    padding: 12px 24px;
+}
+.post_footer{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+.content{
+    width: 100%;
+    border-bottom: 1px solid #c4c4c4;
+}
+.text_margin{
+    margin-left: 16px;
+}
+
+.text{
+    font-weight: 700;
+}
+
+.like,
+.description{
+    display: flex;
+    align-items: center;
+}
+.like{
+    margin-bottom: 16px;
+}
+.live{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    background: linear-gradient(45.13deg, #EBAF4D 2%, #D60A66 87.65%);
+    color: #ffffff;
+    font-size: 8px;
+    font-weight: 700;
+    width: 26px;
+    height: 14px;
+    position: absolute;
+    left: 50%;
+    bottom: -4px;
+    transform: translateX(-50%);
+}

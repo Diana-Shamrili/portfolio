@@ -1,0 +1,31 @@
+.bl1{
+    width: 50%;
+}
+
+.margin1{
+    margin-right: 40px;
+}
+
+.margin-top1{
+    margin-top: 30px;
+}
+
+label {
+    font-size: 18px !important;
+    color: #585858;
+}
+
+.no-active{
+    display: none;
+}
+
+
+@media screen and (max-width: 800px) {
+    .bl1{
+        width: 100%;
+    }
+    .row1{
+        display: block;
+    }
+
+}

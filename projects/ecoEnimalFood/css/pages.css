@@ -1,0 +1,66 @@
+.block1{
+    line-height: initial;
+    background-color: white;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+    font-size: 18px;
+}
+.top{
+    position: relative;
+    top: -45px;
+}
+
+.margin{
+    margin: 30px 200px;
+}
+.margin-top{
+    margin-top: 30px;
+}
+h3.center-align.sale{
+    margin: -3.22rem 0 1.424rem 0;
+}
+
+h3.center-align.sale1{
+    margin: 1.46rem 0 1.168rem 0;
+}
+
+.flex-wrap{
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.min-width{
+    min-width: 323px;
+}
+
+a.bePaid{
+    text-decoration: underline;
+    color: black;
+}
+.border-radius{
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+}
+@media only screen and (max-width: 1300px){
+    .margin{
+        margin: 30px 100px;
+    }
+}
+
+@media only screen and (max-width: 1260px){
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 900px){
+    .margin{
+        margin: 30px 30px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .margin{
+        margin: 30px 10px;
+    }
+}

@@ -1,0 +1,66 @@
+{box-sizing: border-box;}
+
+.chat-popup.waves-effect {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    /* opacity: 0.9; */
+    position: fixed;
+    bottom: 0;
+    right: 80px;
+    width: 280px;
+    z-index: 2;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 70px;
+    z-index: 100000;
+}
+
+.form-container {
+    max-width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid rgba(185, 185, 185, 0.56);
+}
+
+.from-text  {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+}
+
+.form-container textarea:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.form-container .btn1 {
+    background-color: #3d3d3d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.form-container .btn1:hover, .open-button:hover {
+    opacity: 1;
+}

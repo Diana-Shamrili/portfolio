@@ -1,0 +1,125 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 997;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    color: #000000;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+
+/* Положение и стиль кнопки закрытия (верхний правый угол) */
+.sidenav .closebtn {
+    color: #525252;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.closebtn:hover{
+    color: black;
+}
+
+.overlay3{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 997;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0, 0.5);
+    overflow-y: auto;
+    overflow-x: hidden;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 1s;
+}
+#myCanvasNav.black{
+    width: 100%;
+    opacity: 0.5;
+}
+
+.imgBasket{
+    width: 220px;
+}
+
+.basketProduct{
+    height: 200px;
+    padding: 10px;
+    font-size: 15px;
+}
+.buttonAdd{
+    border-radius: 50%;
+    width: 26px;
+    font-weight: 700;
+}
+
+.buttonAdd.waves-effect,
+.buttonDelete.waves-effect{
+    border: none;
+    background-color: rgba(206, 206, 206, 0.81);
+}
+
+.buttonDelete{
+    border-radius: 20px;
+    width: 184px;
+    height: 30px;
+
+}
+
+.margin-left{
+    margin-left: 10px;
+}
+
+.buttonAdd:hover,
+.buttonDelete:hover,
+.order:hover{
+    background-color: #343434;
+    color: white;
+}
+
+.titleProduct{
+    font-size: 20px;
+    color: #525252;
+    min-width: 400px;
+}
+.countBasket{
+    display: none;
+    color: red;
+    font-weight: 700;
+    font-size: 15px;
+    position: relative;
+    top: -73px;
+    left: 42px;
+}
+
+.countBasketActive{
+    display: block;
+}
+
+.order.waves-effect{
+    height: 40px;
+    width: 200px;
+    border-radius: 16px;
+    background-color: #82d8b4;
+    border: none;
+    font-weight: 600;
+    color: black;
+}
+.all-price{
+    margin: 10px;
+    border-top: 1px solid #80808099;
+    padding-top: 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}

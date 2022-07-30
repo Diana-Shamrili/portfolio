@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <title>Натуральный замороженный корм для собак и животных</title>
+    <link type="image/png" rel="icon" href="assets/image/header/logotype-new.png">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/main-title.css">
+    <link rel="stylesheet" href="css/busket.css">
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/pages.css">
+    <link rel="stylesheet" href="css/pop-up-window.css">
+</head>
+<body>
+<div class="navbar-fixed">
+    <nav class="header">
+        <div class="nav-content">
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large ">
+                <i class="material-icons menu">menu</i></a>
+            <ul class=" left">
+                <li><a href="index.html" title="Интернет-магазин Натуралка.бел - Товары для домашних питомцев">
+                    <img class=" logo" src="assets/image/header/logotype-dark.png" alt="Интернет-магазин Натуралка.бел"></a>
+                </li>
+                <li><a class="slogan show-on-large hide-on-med-and-down" href="aboutUs.html">НАТУРАЛЬНЫЙ ЗАМОРОЖЕННЫЙ КОРМ</a>
+                </li>
+                <li><a class="calcCost hide-on-med-and-down" href="shop.html">Рассчитать стоимость корма на 7 дней</a>
+                </li>
+            </ul>
+            <ul id="t" class="right">
+                <li><a class="waves-effect waves-light modal-trigger" href="#modal1">
+                    <i class="material-icons">person</i></a></li>
+                <li onclick="openNav()"><a href="#!" class="waves-effect"><i
+                        class="material-icons">shopping_cart</i></a>
+                    <div id="countBasket" class="countBasket"></div>
+                </li>
+                <li></li>
+                <li><a href="tel:+375445475039" class="cont_drop hide-on-med-and-down">+375 44 547 50 39</a></li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
+
+<main>
+
+    <div class=" flex center valign-wrapper">
+        <a href="index.html">
+            <div class="back waves-effect"><i class="material-icons chevron_left">chevron_left</i></div>
+        </a>
+    </div>
+    <div class="margin">
+        <div class="block1 row1 flex-wrap top">
+            <div class="min-width">
+                <div><h3>Контакты</h3></div><br>
+                <div>Телефон: +375 44 547 50 39</div><br>
+                <div>Электронная почта: ecodogfood@tut.by</div><br>
+                <div>Адрес магазина: Минск, ул. Тышкевичей, 1</div><br>
+                <div>Время работы: 10:00 – 18:00</div><br>
+                <div>Сб-Вс: Выходной</div><br>
+            </div>
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A428cab08b4b9a9821575bd16b41bc3aa124fb892014f3958554ee8d0dca1dd23&amp;source=constructor" width="1000%" height="357" frameborder="0"></iframe>
+        </div>
+
+    </div>
+    <button class="chat-popup waves-effect" onclick="openForm()">Отправьте нам сообщение</button>
+    <div class="form-popup" id="myForm">
+        <form  class="form-container">
+            <div onclick="closeForm()"><i class="material-icons  right  waves-effect">close</i></div>
+            <h5>Напишите ваше сообщение</h5>
+            <textarea class="from-text" placeholder="Введите сообщение.." name="msg" required></textarea>
+            <button type="submit" class="btn1">Отправить</button>
+        </form>
+    </div>
+</main>
+
+
+<!--footer-->
+<footer class="page-footer">
+    <div class="container1">
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <div>
+                    <img class="logo-footer" src="assets/image/footer/logotype-white.png">
+                </div>
+                <h7 class="white-text">«Eafood.by» - товары для домашних питомцев</h7>
+                <h5 class="white-text">Адресс</h5>
+                <p class="grey-text text-lighten-4"><i class="material-icons location">location_on</i>Республика
+                    Беларусь, г. Минск, ул. Тышкевичей, 1</p>
+            </div>
+
+            <div class="col s12 m6 l3 padding-left">
+                <h5 class="white-text">Меню сайта</h5>
+                <ul>
+                    <li><a href="aboutUs.html" class="white-text menu-footer">О нас</a></li>
+                    <li><a href="shop.html" class="white-text menu-footer">Каталог</a></li>
+                    <li><a href="promotions.html" class="white-text menu-footer">Акции</a></li>
+                    <li><a href="delivery.html" class="white-text menu-footer">Доставка</a></li>
+                    <li><a href="payment.html" class="white-text menu-footer">Оплата и возврат</a></li>
+                    <li><a href="sale.html" class="white-text menu-footer">Система лояльности</a></li>
+                    <li><a href="contacts.html" class="white-text menu-footer">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="col  s12 m6 l3 padding-left">
+                <h5 class="white-text">Время работы</h5>
+                <ul>
+                    <h7 class="white-text">Пн-Пт: 10.00-18.00</h7>
+                    <br>
+                    <h7 class="white-text">Сб-Вс: Выходной</h7>
+                </ul>
+            </div>
+            <div class="col  s12 m6 l3">
+                <h5 class="white-text">Контакты</h5>
+                <ul>
+                    <li><a class="grey-text text-lighten-3 menu-footer" href="tel:+375445475039">+375 44 547 50 39</a></li>
+                    <li><a class="grey-text text-lighten-3 menu-footer" href="mailto:ecodogfood@tut.by">ecodogfood@tut.by</a></li>
+                </ul>
+                <a class="waves-effect waves-light modal-trigger" href="#modal1">
+                    <button class="call waves-effect">
+                        <i class="material-icons adjust">adjust</i>
+                        <span>Заказать звонок</span>
+                    </button>
+                </a>
+                <h5 class="white-text">Мы в социальных сетях </h5>
+                <a href="http://www.instagram.com/ecoanimalfood/" target="_blank" class="icon-footer">
+                    <i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="http://vk.com/club65440865" target="_blank" class="icon-footer">
+                    <i class="fa fa-vk" aria-hidden="true"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="row fotter-bottom">
+            <div class="col  s12 m6 l6">ООО ФОКС ИНВЕСТ. УНП 192735393, зарегистрирован Минским
+                горисполком, 17.11.2016.
+                Дата регистрации в Торговом реестре 15.02.20
+                <a class="grey-text text-lighten-4 underline"
+                   href="https://eafood.by/wp-content/uploads/2020/05/svidetelstvo-o-registratsii.jpg" target="_blank">Ссылка
+                    на свидетельство</a>
+                <a class="grey-text text-lighten-4 underline"
+                   href="https://eafood.by/wp-content/uploads/2020/07/Dogovor-publichnoi-oferty.docx" target="_blank">
+                    Публичная оферта</a>
+            </div>
+            <div class="col  s12 m6 l6"><img src="assets/image/footer/Logo-dly-footer.png" class="card1"></div>
+        </div>
+    </div>
+</footer>
+
+<!-- menu -->
+<ul id="slide-out" class="menu side-nav">
+
+    <li class=" user-view">
+        <h3 class="center-align black-text">Меню сайта</h3>
+    <li class="center-align"><a href="aboutUs.html" class="black-text">О нас</a></li>
+    <li class="center-align"><a href="shop.html" class="black-text">Каталог</a></li>
+    <li class="center-align"><a href="promotions.html" class="black-text">Акции</a></li>
+    <li class="center-align"><a href="delivery.html" class="black-text">Доставка</a></li>
+    <li class="center-align"><a href="payment.html" class="black-text">Оплата и возврат</a></li>
+    <li class="center-align"><a href="sale.html" class="black-text">Система лояльности</a></li>
+    <li class="center-align"><a href="contacts.html" class="black-text">Контакты</a></li>
+    </li>
+</ul>
+<!-- Modal Structure -->
+<div id="modal1" class="modal">
+    <div class="modal-content">
+        <div><i class="material-icons menu right modal-close waves-effect">close</i></div>
+        <div class="row">
+            <form class="col l6">
+                <div class="row border-right">
+                    <h4>Авторизация</h4>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate" required/>
+                            <label for="email">Имя пользователя или email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12 top-input">
+                            <input id="password" type="password" class="validate" required/>
+                            <label for="password">Пороль</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            <form action="">
+                                <button class="call waves-effect"><span>Авторизация</span></button>
+                                <input type="checkbox" class="filled-in" id="filled-in-box" required/>
+                                <label for="filled-in-box" class="filled-in-box">Запомнить меня</label>
+                            </form>
+                            <div class="input-field inline no-password underline col s12">
+                                Забыли пароль
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <form class="col l6">
+                <div class="row ">
+                    <h4>Регистрация</h4>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email1" type="email" class="validate" required>
+                            <label for="email1">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12 not-a-robot">
+                            <div class="space-between">
+                                <div><input type="checkbox" id="test5" required/>
+                                    <label class="top-no-a-robot" for="test5">Я не робот</label></div>
+                                <div><img src="https://www.gstatic.com/recaptcha/api2/logo_48.png"></div>
+                            </div>
+                            <div class="konfid-text">Конфиденциальность - Условия использования</div>
+                        </div>
+                        <button class="call call-top waves-effect"><span>Регистрация</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!--bascet-->
+<div id="myCanvasNav" class="overlay3" onclick="closeNav()"></div>
+<div id="mySidenav" class="sidenav">
+    <div id="bucket"></div>
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="assets/js/title-page.js"></script>
+<script src="js/array.js"></script>
+<script src="js/basket.js"></script>
+<script src="js/addToBasket.js"></script>
+<script type="text/javascript" charset="utf-8" async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/
+        ?um=constructor%3A428cab08b4b9a9821575bd16b41bc3aa124fb892014f3958554ee8d0dca1dd23&amp;
+        width=100%25&amp;height=357&amp;lang=ru_RU&amp;scroll=true"></script>
+<script src="js/pop-up-window.js"></script>
+</html>
+

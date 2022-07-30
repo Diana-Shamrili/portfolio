@@ -1,0 +1,104 @@
+body{
+    scroll-behavior: smooth;
+    margin: 0 auto;
+    color: #777;
+    font-family: sans-serif;
+}
+
+.header{
+    margin: 0 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container-header{
+    width: 100%;
+
+    top: 0;
+    z-index: 1;
+    height: 80px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+
+
+.flex-row{
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+
+.material-icons.menu{
+    font-size: 40px;
+    color: #000;
+    cursor: pointer;
+}
+
+.fa-bars{
+    font-size: 30px;
+}
+
+.logo{
+    width: 105px;
+}
+
+.slogan{
+    color: #777777;
+    font-size: 12px;
+    line-height: initial;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: .5px;
+}
+.calcCost{
+    max-width: 200px;
+    text-align: center;
+    background: #fce297;
+    height: auto;
+    line-height: initial;
+    font-size: 12px;
+    font-weight: 900;
+    padding: 5px 15px;
+    border-radius: 50px;
+    letter-spacing: 0;
+    margin-left: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+.top_bar{
+    display: flex;
+    align-items: center;
+}
+
+.header_button{
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+
+i.material-icons{
+    color: black;
+    margin-right: 20px;
+    line-height: 2;
+    cursor: pointer;
+}
+
+
+
+.cont_drop{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 900;
+}
+.pic-1{
+width: 100%;
+}
+
+.content-bl1{
+    position: relative;
+    margin: 20px 50px;
+}
+

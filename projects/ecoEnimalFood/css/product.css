@@ -1,0 +1,154 @@
+.slash{
+    color: #525252;
+    font-size: 30px;
+    margin: 10px;
+}
+.back{
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+}
+
+.border-bottom{
+    border-bottom: 1px solid grey;
+}
+
+.margin-right{
+    margin-right: auto;
+}
+
+.description-info{
+    max-width: 250px;
+    text-align: right;
+}
+
+.description{
+    padding: 5px;
+    height: 55px;
+}
+
+.busket.waves-effect{
+    margin: 20px 0;
+    border: none;
+    height: 35px;
+    width: 112px;
+    border-radius: 16px;
+    background-color: #82d8b4;
+}
+
+/*product-carusel*/
+.chevron_left {
+    position: relative;
+    top: 6px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.container2 {
+    position: relative;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.next {
+    right: 10px;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.column {
+    float: left;
+    width: 25%;
+}
+.demo {
+    opacity: 0.6;
+}
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.links :hover{
+    color: #525252;
+
+}
+
+.product-description{
+    padding: 10px 20px;
+}
+.margin-top{
+    margin-top: 30px;
+}
+.block1{
+    background-color: white;
+    width: 100%;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+    font-size: 18px;
+}
+.border-radius{
+    border-radius: 20px;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
+}
+
+.border-radius-left{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.border-radius-right{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+@media only screen and (max-width: 1300px) {
+    .row .col.l6.margin-right.block1 {
+        padding-bottom: 10px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .row1{
+        display:block ;
+    }
+    .row1.space-between{
+        display:flex ;
+    }
+    .product-description {
+        padding: 10px 10px;
+    }
+}

@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(to bottom, #ffea00, #941cd0);
+    height: 100vh;
+    overflow-y: hidden;
+    
+}
+
+.content {
+    font-size: 100px;
+}
+
+.wraper {
+    margin: 210px auto;
+    font-family: sans-serif;
+    min-width: 900px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    width: 790px;
+    justify-content: space-around;
+}
+.container{
+    margin: 20px -10px;
+
+}
+input{
+    margin:0 10px
+}
+
+input[type = "button"] {
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: black;
+}
+
+input[type = "date"] {
+    padding: 0 5px;
+    height: 50px;
+    width: 240px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+    background-color: white;
+}
+
+.height {
+    height: 55px;
+}
+
+.text-stopwatch {
+    font-size: 35px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+}
+
+.text-date {
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+}
+ input[type = button]:active{
+    box-shadow:0px 5px 10px 2px rgba(255, 255, 255, 0.4) inset; ;
+ }
