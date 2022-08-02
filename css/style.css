@@ -127,7 +127,6 @@ img {
 .project__item:hover .project__name{
      padding: 30% 0 0 0;
      transform: translateY(0);
-
 }
 @media screen and (max-width: 700px) {
   .wraper{
