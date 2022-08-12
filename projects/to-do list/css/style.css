@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.wraper {
+     height: 100vh;
+  background: linear-gradient(to bottom, #72f4fd, #9f6db8);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.block {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 500px;
+  width: 300px;
+  background: #fff;
+  border-radius: 30px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+}
+.block__header {
+}
+.block__logo {
+  font-size: 30px;
+  font-weight: 500;
+}
+.add {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.add__task {
+  width: 240px;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 0 5px;
+}
+.add__task:focus{
+  border: 2px solid #9f6db8;
+}
+.add__button {
+  width: 42px;
+  height: 42px;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+}
+.add__button:active,
+.info__clear:active{
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2) inset;
+}
+.add__button,
+.info__clear {
+  border-radius: 10px;
+  background: #9f6db8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.block__task {
+  flex: 1 0 auto;
+  max-height: 340px;
+  overflow-y: scroll;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0 0 0 ;
+}
+.info__clear {
+  height: 42px;
+  padding: 0 10px;
+  cursor: pointer;
+}
+.tasks{
+    cursor: pointer;
+    background: #e2dada;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 5px;
+    overflow-x: hidden;
+}
+.tasks:hover .del{
+  display: flex;
+}
+.del{
+     display: none;
+     justify-content: center;
+     align-items: center;
+     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+     position: absolute;
+     content: "X";
+     right: 0;
+     height: 100%;
+     width: 40px;
+     background: rgb(244, 87, 87);
+     color: #fff;
+     font-weight: 700;
+     cursor: pointer;
+}
+.active{
+  color: #b8b8b8;
+  background: #3f3f3fde;
+  text-decoration: line-through;
+}
+
+.selected {
+  opacity: 0.6;
+}
+
