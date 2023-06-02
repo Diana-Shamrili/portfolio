@@ -1,7 +1,7 @@
-.wraper{
+.wraper {
   margin: 20px 80px;
 }
-.block{
+.block {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,12 +11,12 @@
   margin-bottom: 50px;
 }
 
-.content{
+.content {
   position: relative;
   height: auto;
   max-width: 1400px;
 }
-.content-2__block{
+.content-2__block {
   min-height: 400px;
   max-width: 1400px;
   padding: 20px 60px;
@@ -25,12 +25,12 @@
   box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
   width: 100%;
 }
-.border-radius-shadow{
-   border-radius: 20px;
+.border-radius-shadow {
+  border-radius: 20px;
   box-shadow: 0 0 4px 1px rgb(0 0 0 / 8%);
 }
 .col.l7.m7.s12.dog.hero_wr,
-.col.l3.m4.kot{
+.col.l3.m4.kot {
   margin: 0;
 }
 .content-3 {
@@ -149,20 +149,24 @@ button.call.call-collor.waves-effect {
   height: 40px;
   background-color: white;
   border-radius: 20px;
-  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%),
-    0 3px 1px -2px rgb(0 0 0 / 20%);
+  box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
 }
 .back:hover {
   background-color: #eeeeee;
 }
-.center{
+.center {
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;*/
   justify-content: center;
   align-items: center;
-  min-height: 300px;
+  /*min-height: 300px;*/
 }
-
+.flex.center.valign-wrapper {
+  justify-content: flex-start !important;
+}
+.flex.center.valign-wrapper a {
+  color: rgba(0, 0, 0, 0.87);
+}
 @media only screen and (max-width: 992px) {
   .slideshow-container {
     width: 100% !important;
@@ -172,8 +176,8 @@ button.call.call-collor.waves-effect {
     top: 5px;
     left: 5px;
   }
-  .wraper{
-    margin: 20px 40px ;
+  .wraper {
+    margin: 20px 40px;
   }
 }
 
@@ -181,8 +185,7 @@ button.call.call-collor.waves-effect {
   .slideshow-container {
     width: 100%;
   }
-  .wraper{
-    margin: 20px 10px ;
+  .wraper {
+    margin: 20px 10px;
   }
 }
-
