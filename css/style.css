@@ -109,17 +109,9 @@ img {
 .header__socialnetwork a:hover img {
   transform: scale(1.2);
 }
-.content {
-}
 .content__title {
   font-size: 24px;
-  margin: 50px 50px 20px;
-}
-.content__project {
-}
-.project {
-}
-.project__items {
+  padding: 50px 50px 20px;
 }
 .project__item {
   position: relative;
@@ -163,7 +155,27 @@ img {
   color: #fff;
   min-height: 200px;
   padding: 0 50px;
+  text-align: right;
 }
 .project__item:hover .project__label {
   color: #000;
+}
+@media (max-width: 767px) {
+  .project__label {
+    min-height: 90px;
+  }
+  .header__socialnetwork a{
+    margin-right:0;
+  }
+  .header__socialnetwork{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .header{
+    padding: 60px 30px;
+  }
+  .content__title {
+    padding: 20px 30px;
+  }
 }
